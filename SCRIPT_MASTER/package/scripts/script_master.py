@@ -44,7 +44,7 @@ class ScriptMaster(Script):
       env.set_params(params)
       
   def status(self, env):
-    raise ClientComponentHasNoStatus()
+    pass
 
 if __name__ == "__main__":
   ScriptMaster().execute()
